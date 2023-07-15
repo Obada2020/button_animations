@@ -47,7 +47,7 @@ class RainbowButtonState extends State<RainbowButton>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey[100],
       appBar: AppBar(
         title: const Text('Rainbow Button'),
       ),
@@ -98,7 +98,7 @@ class RainbowButtonState extends State<RainbowButton>
               onTap: () {},
               child: Container(
                 decoration: const BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.black,
                   borderRadius: BorderRadius.all(Radius.circular(10)),
                 ),
                 width: (MediaQuery.of(context).size.width * 0.62) - 14,
@@ -109,7 +109,7 @@ class RainbowButtonState extends State<RainbowButton>
                     style: GoogleFonts.kalam(
                       fontWeight: FontWeight.bold,
                       fontSize: 30,
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                   ),
                 ),
