@@ -3,4 +3,4 @@
 A new Flutter project.
 
 # Example 
-![](http://i.imgur.com/OUkLi.gif)
+![](https://github.com/Obada2020/button_animations/blob/main/assets/example.gif)
